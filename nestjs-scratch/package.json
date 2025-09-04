@@ -1,0 +1,19 @@
+{
+  "name": "restjs-scratch",
+  "version": "0.0.1",
+  "description": "the first basic project with nestjs",
+  "main": "index.js",
+  "scripts": {
+    "start-app": "npx ts-node-dev src/main.ts"
+  },
+  "author": "shubham sarkar ©️",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^7.6.17",
+    "@nestjs/core": "^7.6.17",
+    "@nestjs/platform-express": "^7.6.17",
+    "prettier": "^3.6.2",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.3.2"
+  }
+}
