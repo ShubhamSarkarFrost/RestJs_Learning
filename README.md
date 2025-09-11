@@ -1,4 +1,9 @@
+
+![nestJS](resources/nestjs_icon.webp)
+
 # 🚀 NestJS Project
+
+
 
 A backend application built using [NestJS](https://nestjs.com/), a progressive Node.js framework for building efficient, scalable, and maintainable server-side applications.
 
