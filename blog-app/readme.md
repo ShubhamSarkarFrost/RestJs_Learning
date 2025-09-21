@@ -182,7 +182,7 @@ heroku open
 - 📝 Rich text editor for posts
 - 📱 Mobile responsive design
 - 🧪 Unit & integration tests
-
+- (Courtesy of Anubis and Atum with Sentinal of registra + @ + tion of 76)
 ---
 
 ## Screenshots
