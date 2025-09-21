@@ -1,0 +1,108 @@
+/* src/index.css */
+
+:root {
+  --bg-color: #121212; /* Charcoal Gray */
+  --text-color: #ffffff; /* White */
+  --accent-color: #00bfff; /* Electric Blue (swap with #39FF14 for Neon Green) */
+  --subtle-color: #444444; /* Light Gray */
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Roboto", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+  color: var(--text-color);
+  margin-bottom: 0.75em;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+/* Buttons */
+button {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+button:hover {
+  background-color: #ffffff;
+  color: var(--bg-color);
+  border: 1px solid var(--accent-color);
+}
+
+/* Inputs */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  background: #1e1e1e;
+  border: 1px solid var(--subtle-color);
+  border-radius: 6px;
+  color: var(--text-color);
+  font-size: 14px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 4px var(--accent-color);
+}
+
+/* Card Style (for post previews) */
+.card {
+  background: #1a1a1a;
+  border: 1px solid var(--subtle-color);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Images */
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid var(--subtle-color);
+  margin: 24px 0;
+}
